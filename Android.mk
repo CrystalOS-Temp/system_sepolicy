@@ -578,7 +578,6 @@ endif
 
 LOCAL_REQUIRED_MODULES += selinux_policy_system_ext
 LOCAL_REQUIRED_MODULES += selinux_policy_product
-
 LOCAL_REQUIRED_MODULES += \
     selinux_denial_metadata \
 
