@@ -157,6 +157,7 @@ allowxperm gsid {
 };
 
 allow gsid system_server:binder call;
+allow gsid exfat:dir search;
 
 # Prevent most processes from writing to gsi_metadata_file_type, but allow
 # adding rules for path resolution of gsi_public_metadata_file and reading
